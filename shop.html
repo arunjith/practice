@@ -1,0 +1,123 @@
+<html>
+<!-- Author Smartlabs @ Versatiletech 
+Team:Arunjith, Sanjeev, Shweta
+Owner : Versatiletech 
+Location: Bangalore -->
+<head>
+<title>
+Shopping Website
+</title>
+<meta charset="utf-8">
+    
+</head>
+<link rel="stylesheet" type="text/css" href="http://webrupee.com/font">
+<style>
+.hw {
+font-size: ;
+}
+#para {
+ color:rgb(30,50,100);
+font-family:cursive;
+    background: yellow;
+    font-size: 23px;
+    font-style: italic;
+}
+
+    a {
+    text-decoration: none;
+    }
+ p {
+     line-height: 30px;
+ }
+   li{
+    display:inline;
+    }
+    #suit{
+     position:absolute;
+     float: center; 
+     margin-left: 10px;
+     margin-top: -40px;
+        
+}
+    #suit1{
+     position:absolute;
+     float: center;
+      margin-left: 100px;
+     margin-top: -40px;
+}
+    th, td {
+    padding: 20px;
+}
+#text1{
+    display: none;
+    position: absolute;
+}
+</style> 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+<script>   
+$(document).ready(function(){
+    $("#image1").hover(function(){
+        $("#text1").fadeIn(500);
+        
+    }, function(){
+        $("#text1").hide();
+    }
+    );
+});
+</script>
+<body>
+      <center>
+    <div width="2.0" style="background:red;">
+  
+        <ul id="nav">
+        <li>about                </li>
+        <li>shop</li>
+        <li>cart</li>
+        </ul>
+        </div>
+            <h3 class ="hw">Monsoon Sale!</h3>
+         <a href="shop.html"> <img src="s.jpg"></a>
+        
+        <p id="para"><strong>Your</strong><b> Shopping <em>Begins</em> Here</b> </p>
+<table border=0 >
+    <thead>
+        <tr cols>
+            <th>Mens Clothing</th>
+        
+            <th>Women's Clothing</th>
+        
+            <th>Chilren's Clothing</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        
+        <td> <img src="m1.jpg" width="200" height="200" id="image1"><div id= "text1">Men Suit only for :<img src="http://i.stack.imgur.com/nGbfO.png" width="8" height="10">1200 </div></td>
+        
+        <td> <img src="w1.jpg" width="200" height="200" id="image2"></td>
+        
+    <td> <img src="c1.jpg" width="200" height="200" id="image3"></td>
+    </tr>`
+    <td> <img src="m2.jpg" width="200" height="200" id="image4"></td>
+    <td> <img src="w2.jpg" width="200" height="200" id="image5"></td>
+    <td> <img src="c2.jpg" width="200" height="200" id="image6"></td>
+    </tr>
+    <tr>
+    <td> <img src="m3.jpg" width="200" height="200" id="image7"></td>
+    <td> <img src="w3.jpg" width="200" height="200" id="image8"></td>
+    <td> <img src="c3.jpg" width="200" height="200" id="image9"></td>
+    </tr>
+    </tbody>
+    </table> 
+    
+    
+<center>
+    <footer>
+    <br />
+   <div style="background:grey">
+        <li><a href="about.html">About Us</a></li>
+        <li> <a href="buy.html">Buy Now</a></li>
+        </div>
+            </center>
+        </footer>
+    </body>

@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://webrupee.com/font">
+</head>
+<body>
+Rupee Symbol: <span class="WebRupee">Rs.</span> 786
+<br/>
+Rupee Symbol: <span class="WebRupee">Rs</span> 786
+<br/>
+Rupee Symbol: <span class="WebRupee">&#x20B9;</span> 786
+<br/>
+Rupee Symbol: <del>&#2352;</del> 786
+<br/>
+Rupee Symbol: <img src="http://i.stack.imgur.com/nGbfO.png" width="8" height="10"> 786
+<br/>
+</body>
+</html>
